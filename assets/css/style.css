@@ -1,0 +1,51 @@
+@font-face {
+    font-family: Montserrat;
+    src: url("../fonts/Montserrat-VariableFont_wght.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+    font-weight: 600;
+
+}
+
+p::first-letter {
+    font-size: 40px;
+    color: #00ced1;
+}
+
+p::first-line {
+    color: #483d8b;
+}
+
+h1::before {
+    content: "Hi!";
+    color: #32cd32;
+}
+
+h1, h2, h3 {
+    color: #2e8b57;
+    padding: 10px 0;
+}
+
+h2::after {
+    content: "!";
+    color: #c71585;
+}
+
+h3::selection {
+    background-color: #a020f0;
+    color: #c71585;
+}
+
+div {
+    line-height: 50px;
+}
+
+strong {
+    color: red;
+    font-weight: bold;
+}
